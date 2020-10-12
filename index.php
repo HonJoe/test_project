@@ -24,6 +24,13 @@ class IndexController extends Controller {
     }
 
 
+    protected function hello2(){
+        echo '只是protected方法!';
+    }
+    
+    private function hello3(){
+        echo '这是private方法!';
+    }
 
 
 }
